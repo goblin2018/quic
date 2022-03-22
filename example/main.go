@@ -3,11 +3,14 @@ package main
 import (
 	"crypto/md5"
 	"errors"
+	"flag"
 	"fmt"
 	"io"
 	"io/ioutil"
+	"log"
 	"mime/multipart"
 	"net/http"
+	"quic/internal/utils"
 	"strconv"
 	"strings"
 )
@@ -102,4 +105,34 @@ func setupHandler(www string) http.Handler {
 
 	return mux
 
+}
+
+func main() {
+	go func() {
+		log.Println(http.ListenAndServe("localhost:6060", nil))
+	}()
+
+	verbose := flag.Bool("v", false, "verbose")
+	bs := binds{}
+	flag.Var(&bs, "bind", "bind to")
+	www := flag.String("www", "", "www data")
+	tcp := flag.Bool("tcp", false, "also listen on TCP")
+	enableQlog := flag.Bool("qlog", false, "output a qlog (in the same directory)")
+	flag.Parse()
+
+	logger := utils.DefaultLogger
+
+	if *verbose {
+		logger.SetLogLevel(utils.LogLevelDebug)
+	} else {
+		logger.SetLogLevel(utils.LogLevelInfo)
+	}
+	logger.SetLogTimeFormat("")
+
+	if len(bs) == 0 {
+		bs = binds{"localhost:6121"}
+	}
+
+	hanlder := setupHandler(*www)
+	quicConf := &quic.Config
 }
