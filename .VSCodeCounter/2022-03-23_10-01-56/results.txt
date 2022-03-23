@@ -1,0 +1,63 @@
+Date : 2022-03-23 10:01:56
+Directory : f:\quic
+Total : 28 files,  1493 codes, 229 comments, 324 blanks, all 2046 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Go               |         26 |      1,463 |        229 |        319 |      2,011 |
+| Go Checksum File |          1 |         21 |          0 |          1 |         22 |
+| Go Module File   |          1 |          9 |          0 |          4 |         13 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                               |         28 |      1,493 |        229 |        324 |      2,046 |
+| example                                         |          1 |        117 |          3 |         19 |        139 |
+| internal                                        |         20 |      1,040 |        215 |        249 |      1,504 |
+| internal\protocol                               |          9 |        410 |        106 |        122 |        638 |
+| internal\qerr                                   |          2 |        168 |          8 |         35 |        211 |
+| internal\qtls                                   |          3 |        186 |         75 |         42 |        303 |
+| internal\utils                                  |          4 |        246 |         25 |         39 |        310 |
+| internal\wire                                   |          2 |         30 |          1 |         11 |         42 |
+| logging                                         |          1 |          4 |          0 |          2 |          6 |
+| quicvarint                                      |          2 |        164 |          9 |         21 |        194 |
++-------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                        | language         | code       | comment    | blank      | total      |
++-------------------------------------------------+------------------+------------+------------+------------+------------+
+| f:\quic\errors.go                               | Go               |         48 |          2 |          8 |         58 |
+| f:\quic\example\main.go                         | Go               |        117 |          3 |         19 |        139 |
+| f:\quic\go.mod                                  | Go Module File   |          9 |          0 |          4 |         13 |
+| f:\quic\go.sum                                  | Go Checksum File |         21 |          0 |          1 |         22 |
+| f:\quic\interface.go                            | Go               |         90 |          0 |         20 |        110 |
+| f:\quic\internal\protocol\connection_id.go      | Go               |         50 |          0 |         10 |         60 |
+| f:\quic\internal\protocol\encryption_level.go   | Go               |         21 |          0 |          4 |         25 |
+| f:\quic\internal\protocol\key_phase.go          | Go               |         24 |          0 |          6 |         30 |
+| f:\quic\internal\protocol\packet_number.go      | Go               |         60 |          0 |          7 |         67 |
+| f:\quic\internal\protocol\params.go             | Go               |         54 |         87 |         54 |        195 |
+| f:\quic\internal\protocol\perspective.go        | Go               |         19 |          0 |          4 |         23 |
+| f:\quic\internal\protocol\protocol.go           | Go               |         49 |          3 |         13 |         65 |
+| f:\quic\internal\protocol\stream.go             | Go               |         51 |          0 |         10 |         61 |
+| f:\quic\internal\protocol\version.go            | Go               |         82 |         16 |         14 |        112 |
+| f:\quic\internal\qerr\error_codes.go            | Go               |         77 |          3 |          7 |         87 |
+| f:\quic\internal\qerr\errors.go                 | Go               |         91 |          5 |         28 |        124 |
+| f:\quic\internal\qtls\go116.go                  | Go               |         62 |         25 |         14 |        101 |
+| f:\quic\internal\qtls\go117.go                  | Go               |         62 |         25 |         14 |        101 |
+| f:\quic\internal\qtls\go118.go                  | Go               |         62 |         25 |         14 |        101 |
+| f:\quic\internal\utils\atomic_bool.go           | Go               |         15 |          0 |          5 |         20 |
+| f:\quic\internal\utils\buffered_write_closer.go | Go               |          0 |          0 |          1 |          1 |
+| f:\quic\internal\utils\linkedlist.go            | Go               |        135 |         25 |         18 |        178 |
+| f:\quic\internal\utils\log.go                   | Go               |         96 |          0 |         15 |        111 |
+| f:\quic\internal\wire\ack_frame.go              | Go               |         21 |          0 |          7 |         28 |
+| f:\quic\internal\wire\ack_range.go              | Go               |          9 |          1 |          4 |         14 |
+| f:\quic\logging\frame.go                        | Go               |          4 |          0 |          2 |          6 |
+| f:\quic\quicvarint\io.go                        | Go               |         44 |          3 |         13 |         60 |
+| f:\quic\quicvarint\varint.go                    | Go               |        120 |          6 |          8 |        134 |
+| Total                                           |                  |      1,493 |        229 |        324 |      2,046 |
++-------------------------------------------------+------------------+------------+------------+------------+------------+

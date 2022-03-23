@@ -1,6 +1,9 @@
 package quic
 
-import "fmt"
+import (
+	"fmt"
+	"quic/internal/qerr"
+)
 
 type (
 	TransportError          = qerr.TransportError

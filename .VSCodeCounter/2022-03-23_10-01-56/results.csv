@@ -1,0 +1,30 @@
+"filename", "language", "Go", "Go Checksum File", "Go Module File", "comment", "blank", "total"
+"f:\quic\errors.go", "Go", 48, 0, 0, 2, 8, 58
+"f:\quic\example\main.go", "Go", 117, 0, 0, 3, 19, 139
+"f:\quic\go.mod", "Go Module File", 0, 0, 9, 0, 4, 13
+"f:\quic\go.sum", "Go Checksum File", 0, 21, 0, 0, 1, 22
+"f:\quic\interface.go", "Go", 90, 0, 0, 0, 20, 110
+"f:\quic\internal\protocol\connection_id.go", "Go", 50, 0, 0, 0, 10, 60
+"f:\quic\internal\protocol\encryption_level.go", "Go", 21, 0, 0, 0, 4, 25
+"f:\quic\internal\protocol\key_phase.go", "Go", 24, 0, 0, 0, 6, 30
+"f:\quic\internal\protocol\packet_number.go", "Go", 60, 0, 0, 0, 7, 67
+"f:\quic\internal\protocol\params.go", "Go", 54, 0, 0, 87, 54, 195
+"f:\quic\internal\protocol\perspective.go", "Go", 19, 0, 0, 0, 4, 23
+"f:\quic\internal\protocol\protocol.go", "Go", 49, 0, 0, 3, 13, 65
+"f:\quic\internal\protocol\stream.go", "Go", 51, 0, 0, 0, 10, 61
+"f:\quic\internal\protocol\version.go", "Go", 82, 0, 0, 16, 14, 112
+"f:\quic\internal\qerr\error_codes.go", "Go", 77, 0, 0, 3, 7, 87
+"f:\quic\internal\qerr\errors.go", "Go", 91, 0, 0, 5, 28, 124
+"f:\quic\internal\qtls\go116.go", "Go", 62, 0, 0, 25, 14, 101
+"f:\quic\internal\qtls\go117.go", "Go", 62, 0, 0, 25, 14, 101
+"f:\quic\internal\qtls\go118.go", "Go", 62, 0, 0, 25, 14, 101
+"f:\quic\internal\utils\atomic_bool.go", "Go", 15, 0, 0, 0, 5, 20
+"f:\quic\internal\utils\buffered_write_closer.go", "Go", 0, 0, 0, 0, 1, 1
+"f:\quic\internal\utils\linkedlist.go", "Go", 135, 0, 0, 25, 18, 178
+"f:\quic\internal\utils\log.go", "Go", 96, 0, 0, 0, 15, 111
+"f:\quic\internal\wire\ack_frame.go", "Go", 21, 0, 0, 0, 7, 28
+"f:\quic\internal\wire\ack_range.go", "Go", 9, 0, 0, 1, 4, 14
+"f:\quic\logging\frame.go", "Go", 4, 0, 0, 0, 2, 6
+"f:\quic\quicvarint\io.go", "Go", 44, 0, 0, 3, 13, 60
+"f:\quic\quicvarint\varint.go", "Go", 120, 0, 0, 6, 8, 134
+"Total", "-", 1463, 21, 9, 229, 324, 2046

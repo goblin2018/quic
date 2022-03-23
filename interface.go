@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 	"net"
-	"quic/internal/utils/protocol"
+	"quic/internal/protocol"
 	"time"
 )
 
